@@ -5,7 +5,7 @@
   $topModules[3] = "OOAD";
   $topModules[4] = "Software Engineering";
   $topModules[5] = "Open Source Systems";
-  $topModules[6] = "OOSD"
+  $topModules[6] = "OOSD"; 
 
   for($count = 0,$count < 5;$count++)
   {
