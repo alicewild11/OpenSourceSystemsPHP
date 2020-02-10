@@ -3,9 +3,9 @@
   $mymarks["year 2"] = 65;
   $mymarks["year 3"] = 75;
 
-  while(list($index,$value) = each($mymarks));
+  while(list($index,$value) = each($mymarks))
   {
     echo "for  $index  my grade was  $value <br/>";
   }
-  echo "<br/> My best year was Year 3 when I averaged " $mymarks["year 3"];
+  echo "<br/> My best year was Year 3 when I averaged " . $mymarks["year 3"];
 ?>
