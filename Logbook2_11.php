@@ -3,7 +3,7 @@ $mymarks["CO556"]= 73;
 $mymarks["C0678"]= 80;
 $mymarks["CO996"]= 58;
 
-$total
+$total = 0;
 
 while (list($index,$value) = each($mymarks))
 {
