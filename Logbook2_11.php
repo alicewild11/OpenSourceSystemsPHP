@@ -10,7 +10,7 @@ $mymarks["CO879"]= 67;
 $total = 0;
 while (list($index,$value) = each($mymarks))
  {
-  echo "for $index my grade was $value <br/>";
+  echo "For $index my grade was $value <br/>";
   $total = $total + $mymarks[$index];
  };
 $average = $total /  6;
