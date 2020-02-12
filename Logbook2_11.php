@@ -7,14 +7,12 @@ $mymarks["CO456"]= 78;
 $mymarks["CO125"]= 90;
 $mymarks["CO879"]= 67;
 
+$total = 0;
 while (list($index,$value) = each($mymarks))
  {
   echo "for $index my grade was $value <br/>";
+  $total = $total + $mymarks[$index];
  };
-
-$total = 0;
-$total = $total + $mymarks[$index];
-$average = $total /  6;
 
 echo "<br/> My average score is $average";
 ?>
