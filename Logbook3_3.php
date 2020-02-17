@@ -1,5 +1,5 @@
 <?
-  switch ($_POST[“radcourse”])
+  switch ($_POST["radcourse"])
   {
     case "HNC" : echo "You have selected an HNC course";
                  break;
@@ -7,6 +7,8 @@
                  break;
     case "BSC" : echo "You have selected a BSC course";
                  break;
+    case "PartTimeBSC" : echo "You have selected a Part Time BSC course"
+
     default    : echo "No course selected";
   }
 ?>
