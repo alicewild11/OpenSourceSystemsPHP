@@ -11,7 +11,7 @@
   {
     echo "You Are Female";
   }
-  else ($_POST["txtgender"] == Male)
+  else if ($_POST["txtgender"] == Male)
   {
     echo "You Are Male";
   }
