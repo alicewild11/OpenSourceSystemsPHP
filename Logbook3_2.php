@@ -9,11 +9,11 @@
   }
   if($_POST["txtgender"] == Female)
   {
-    echo "You Are Female"
+    echo "You Are Female";
   }
   else ($_POST["txtgender"] == Male)
   {
-    echo "You Are Male"
+    echo "You Are Male";
   }
 
 ?>
