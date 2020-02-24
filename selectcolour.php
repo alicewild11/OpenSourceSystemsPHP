@@ -13,7 +13,6 @@ $_SESSION['selectQuantity'] = $_POST["selqty"]; ?>
 	  <option>green</option>
 	  <option>blue</option>
         </select>
-        <input type=”text” name=”txtprice” size=”10” value=”15.75” readonly />
         <input type="submit" value="Buy"/>
       </form>
    </body>
