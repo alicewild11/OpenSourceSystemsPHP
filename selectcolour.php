@@ -10,6 +10,7 @@
 	  <option>green</option>
 	  <option>blue</option>
         </select>
+        <input type=“hidden” name=“qty” value="<?php echo $_POST["selqty"] ?>“ />
         <br/><br/>
         <input type="submit" value="Buy"/>
       </form>
