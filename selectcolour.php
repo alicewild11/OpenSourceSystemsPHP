@@ -1,8 +1,9 @@
+<? session_start(); ?>
+<? echo "Your quantity is $_POST[selqty]";
+$_SESSION['selectQuantity'] = $_POST["selqty"]; ?>
 <html>
   <head><title>Select colour page</title></head>
     <body>
-      <? $cookieName = 'selectQuantity' ;
-         setcookie($cookieName, $_POST["selqty"]); ?>
       <form action="confirmation.php"  method="post">
 	Select the colour for the <?php echo $_POST["selqty"] ?> widgets you are ordering
    	<select name="selcolour">
