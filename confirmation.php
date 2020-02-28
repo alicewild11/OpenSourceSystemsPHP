@@ -2,7 +2,7 @@
    session_start();
    echo "Your order quantity is $_SESSION[selectQuantity]";
    echo " and the selected colour is $_POST[selcolour].<br>";
-   echo " Widget size is ".$_COOKIE['widgetSize'] ;
+   echo " Widget size is ".$_COOKIE['widgetSize'] "<br>";
 
 switch ($_COOKIE['widgetSize']) {
     case "Small":
@@ -21,6 +21,6 @@ switch ($_COOKIE['widgetSize']) {
 
 $finalprice = $_SESSION['selectQuantity']*$price;
 
- echo "The price of your $_SESSION[selectQuantity] $_COOKIE[widgetSize] $ $_POST[selcolour] widgets is $finalprice.";
+ echo "The price of your $_SESSION[selectQuantity] $_COOKIE[widgetSize] $_POST[selcolour] widgets is £$finalprice.";
 
 ?>
