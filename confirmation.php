@@ -1,8 +1,7 @@
 <?php
    session_start();
-   echo "Your order qty is $_SESSION[selectQuantity]</br>";
-   echo "<h2> and the selected colour is $_POST[selcolour].</h2>";
-   echo "$_COOKIE[widgetPrice]";
+   echo "Your order qty is $_SESSION[selectQuantity]";
+   echo "and the selected colour is $_POST[selcolour]<br>";
    $Price = $_SESSION['selectQuantity'] * $_COOKIE['widgetPrice'] ;
    echo "$Price";
 ?>
