@@ -2,7 +2,7 @@
    session_start();
    echo "Your order quantity is $_SESSION[selectQuantity]";
    echo " and the selected colour is $_POST[selcolour].<br>";
-   echo " Widget size is ".$_COOKIE['widgetSize'] "<br>";
+   echo " Widget size is.$_COOKIE[widgetSize]<br>";
 
 switch ($_COOKIE['widgetSize']) {
     case "Small":
