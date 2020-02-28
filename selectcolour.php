@@ -2,7 +2,6 @@
 <? echo "Your quantity is $_POST[selqty]";
 $_SESSION['selectQuantity'] = $_POST["selqty"]; ?>
 <? $cookieName = 'widgetPrice'; setcookie($cookieName, $_POST['txtprice']); ?>
-<? echo "Your account is $_POST['txtprice']"; ?>
 <html>
   <head><title>Select colour page</title></head>
     <body>
