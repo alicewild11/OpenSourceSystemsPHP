@@ -1,5 +1,5 @@
-<!--?php include("class_lib.php"); ?-->
-<!--?php
+<?php include("class_lib.php"); ?>
+<?php
 	$stefan = new person();
 	$jimmy = new person;
 
