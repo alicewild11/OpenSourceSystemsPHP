@@ -1,7 +1,7 @@
 <?php
 
   $sql = "INSERT INTO test (name,email,phonenumber)";
-  $sql = $sql . " values ('$_POST[txtName]','$_POST[txtEmail]','$_POST[txttelno]')";
+  $sql = $sql . " values ('$_POST[txtname]','$_POST[txtemail]','$_POST[txttelno]')";
 
   $link = mysqli_connect("localhost", "root", "", "db1_alicewild");
 
