@@ -1,6 +1,6 @@
 <?php
 
-  $sql = "UPDATE test WHERE name = $row[name] AND $row[phonenumber]";
+  
 
   $link = mysqli_connect("localhost", "root", "", "db1_alicewild");
 
