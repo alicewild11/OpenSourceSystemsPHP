@@ -11,7 +11,7 @@ $link = mysqli_connect("localhost", "root", "", "db1_alicewild");
 <form action='Logbook6_1.php' method='post'>
 
 	Name :
-	<input type=text name=txtname value="<? echo $row['name'] ?>" readonly />
+	<input type=text name=txtname value="<? echo $row['name'] ?>"/>
 	</br>
 	Phone number :
 	<input type=text name=txttelno value="<? echo $row['phonenumber'] ?>" />
