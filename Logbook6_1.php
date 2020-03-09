@@ -12,7 +12,8 @@
 	{
 		echo "$row[name]  $row[email]  $row[phonenumber] <br/>";
 	}
-  mysqli_free_result($result);
   
+mysqli_close($link);
+
 
 ?>
