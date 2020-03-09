@@ -8,7 +8,7 @@ $link = mysqli_connect("localhost", "root", "", "db1_alicewild");
 ?>
 <html>
 <body>
-<form action=" " method="post">
+<form action='Logbook6_1.php' method='post'>
 
 	Name :
 	<input type=text name=txtname value="<? echo $row['name'] ?>" readonly />
