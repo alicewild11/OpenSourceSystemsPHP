@@ -2,7 +2,8 @@
 	$sql = "INSERT INTO test (name,email,phone_number)";
 	$sql = $sql . " values ('$_POST[txtName]','$_POST[txtEmail]','$_POST[txtPhoneNumber]’)";
 
-	// Connect to server and select database
+	$link = mysqli_connect("localhost", "login", "pwd", "test");
+  
 
 	// Execute sql statement
 
