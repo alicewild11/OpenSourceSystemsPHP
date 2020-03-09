@@ -1,9 +1,11 @@
 <?php
+
   $sql = "INSERT INTO test (name,email,phonenumber)";
-  $sql = $sql . " values ('$_POST[txtName]','$_POST[txtEmail]','$_POST[txtPhoneNumber]’)";
+  $sql = $sql . " values ('$_POST[txtName]','$_POST[txtEmail]','$_POST[txtPhoneNumber]')";
 
   $link = mysqli_connect("localhost", "root", "", "db1_alicewild");
 
+  $result = mysqli_query($link,$sql);
 
   $sql = "SELECT * from test";
 
