@@ -13,5 +13,5 @@
 	while ($row = mysqli_fetch_assoc($result))
 	{
 		echo "$row[name]  $row[email]  $row[phone_number] <br/>";
-	}
+	};
 ?>
