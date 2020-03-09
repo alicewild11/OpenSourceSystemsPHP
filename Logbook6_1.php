@@ -2,8 +2,8 @@
 	$sql = "INSERT INTO test (name,email,phone_number)";
 	$sql = $sql . " values ('$_POST[txtName]','$_POST[txtEmail]','$_POST[txtPhoneNumber]’)";
 
-	$link = mysqli_connect("localhost", "login", "pwd", "test");
-  
+	$link = mysqli_connect("192.168.64.2", "login", "pwd", "test");
+
 
 	// Execute sql statement
 
