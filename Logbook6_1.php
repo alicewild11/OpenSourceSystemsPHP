@@ -3,9 +3,10 @@
 	$sql = $sql . " values ('$_POST[txtName]','$_POST[txtEmail]','$_POST[txtPhoneNumber]’)";
 
 	$link = mysqli_connect("localhost", "root", "", "db1_alicewild");
-  $result = mysqli_query($link,$sql);
 
 	$sql = "SELECT * from test";
+
+  $result = mysqli_query($link,$sql);
 
 	while ($row = mysqli_fetch_assoc($result))
 	{
