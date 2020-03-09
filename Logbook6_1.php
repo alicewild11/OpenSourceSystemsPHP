@@ -2,15 +2,10 @@
 	$sql = "INSERT INTO test (name,email,phone_number)";
 	$sql = $sql . " values ('$_POST[txtName]','$_POST[txtEmail]','$_POST[txtPhoneNumber]’)";
 
-	$link = mysqli_connect("localhost", "test");
+	$link = mysqli_connect("localhost", "root", "", "test");
   $result = mysqli_query($link,$sql);
 
-
-	// Execute sql statement
-
 	$sql = "SELECT * from test";
-
-	// Execute sql statement
 
 	while ($row = mysqli_fetch_assoc($result))
 	{
