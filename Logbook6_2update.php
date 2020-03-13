@@ -1,6 +1,8 @@
 <?php
 
-  
+$sql = "UPDATE test SET txttelno=$row['phonenumber']";
+$sql = "UPDATE test SET txtemail=$email['phonenumber']";
+
 
   $link = mysqli_connect("localhost", "root", "", "db1_alicewild");
 
