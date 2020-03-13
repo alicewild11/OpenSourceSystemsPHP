@@ -1,7 +1,7 @@
 <?php
 
-$sql = "UPDATE test SET $row[phonenumber]= $_GET'txttelno' WHERE name = '$_GET[id]'";
-$sql = "UPDATE test SET $row[email] = $_GET'txtemail' WHERE name = '$_GET[id]'";
+$sql = "UPDATE test SET $row[phonenumber]= $txttelno WHERE name = '$_GET[id]'";
+$sql = "UPDATE test SET $row[email] = $txtemail WHERE name = '$_GET[id]'";
 
 
   $link = mysqli_connect("localhost", "root", "", "db1_alicewild");
