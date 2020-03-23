@@ -19,6 +19,6 @@ $link = mysqli_connect("localhost", "root", "", "db1_alicewild");
 	Email :
 	<input type=text name=txtemail value="<? echo $row['email'] ?>" />
 	</br>
-	<input type=submit name=btnsubmit value="save"/>
+	<input type=submit name=btnsubmit value="Delete"/>
 </form>
 </body>
