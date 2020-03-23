@@ -1,6 +1,6 @@
 <?php
 
-$sql = "UPDATE test SET email = '$_POST[txtemail]', phonenumber= '$_POST[txttelno]'  WHERE ID = '$_GET[id]'";
+$sql = "DELETE FROM test WHERE ID = '$_GET[id]'";
 
   $link = mysqli_connect("localhost", "root", "", "db1_alicewild");
 
