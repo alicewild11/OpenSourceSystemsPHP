@@ -6,7 +6,7 @@
         echo "<br/> $number[$n]";
      }
 
-     $conn = mysqli_connect("localhost", username, password, databasename);
+     $conn = mysqli_connect("localhost", "username", "password", "databasename");
 
      $sql = "insert into lotto (lottodate,number1,number2,";
      $sql = $sql . "number3,number4,number5,number6)";
