@@ -9,7 +9,8 @@ class MyNewMigration extends AbstractMigration
         $users = $this->table('monsters');
         $users->addColumn('name', 'varchar', ['limit' => 20])
               ->addColumn('image', 'blob')
-            
+              ->addColumn('audio', 'blob')
               ->create();
     }
 }
+?>
